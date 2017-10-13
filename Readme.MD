@@ -19,13 +19,13 @@
 
 
 
-## Step 3: Navigate to the "scripts" folder and execute log data generator (Optional)
+## Step 4: Navigate to the "scripts" folder and execute log data generator (Optional)
 		sh generate_logs.sh  ##logs should be genertaed under "files"
 
 
-## Step 4: Open Kibana to check the data
+## Step 5: Open Kibana to check the data
 		http://localhost:5601
 
-## Step 5: Check ElasticSearch cluster
+## Step 6: Check ElasticSearch cluster
 		http://localhost:9200
 		http://localhost:9200/_cat
