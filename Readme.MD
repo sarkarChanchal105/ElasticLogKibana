@@ -1,4 +1,4 @@
-# How to spinup a singlenode ELK cluster in Windows
+# How to spinup a singlenode ElasticSearch LogStash Kibana (ELK) cluster in Windows
 
 ## Step 1: Download and install Git Bash for Windows.
 		You may use this link : https://git-for-windows.github.io/
@@ -25,3 +25,6 @@
 ## Step 4: Open Kibana to check the data
 		http://localhost:5601
 
+## Step 5: Check ElasticSearch cluster
+		http://localhost:9200
+		http://localhost:9200/_cat
