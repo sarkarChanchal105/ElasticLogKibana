@@ -7,7 +7,8 @@
 		
 		a) binaries
 		b) config
-		c) logs 		
+		c) logs
+		d) files 		
 
 ## Step 3: Open four Git Bash windows. In Git Bash window, Navigate to the "scripts" folder and execute the following commands.
 
