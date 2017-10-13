@@ -9,6 +9,7 @@ Step 2: Create the following folders under "ElasticLogKibana"
 		iii) logs 		
 
 Step 2: Open Three Git Bash windows. In Git Bash window, Navigate to the "scripts" folder and execute the following commands.
+
 		i) sh start_up_elastic.sh  ##Starts elasticsearch on the default port number
 		ii) sh start_up_kibana.sh ##Starts the kibana service on the default port number
 		iii) sh start_up_logstash.sh ## Start the logstash. Please initialze the variable export source_file="C:/ElasticLogKibana/files/*.log" before running logstash
