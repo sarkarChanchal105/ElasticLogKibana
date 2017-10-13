@@ -4,6 +4,6 @@ echo $file
 echo '' > ../files/$file
 while :
 do
-echo "Hi this is a test on "`date` >> ../Files/$file
+echo "Hi this is a test on "`date` >> ../files/$file
 sleep 1
 done
