@@ -1,0 +1,4 @@
+*.log
+binaries/
+logs/
+files/
