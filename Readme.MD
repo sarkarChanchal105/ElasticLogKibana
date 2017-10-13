@@ -9,11 +9,12 @@
 		b) config
 		c) logs 		
 
-## Step 2: Open Three Git Bash windows. In Git Bash window, Navigate to the "scripts" folder and execute the following commands.
+## Step 3: Open four Git Bash windows. In Git Bash window, Navigate to the "scripts" folder and execute the following commands.
 
-		a) sh start_up_elastic.sh  ##Run in bash windows one.Starts elasticsearch on the default port number
-		b) sh start_up_kibana.sh   ##Run in bash windows two.Starts the kibana service on the default port number
-		c) sh start_up_logstash.sh ##Run in bash windows three.Start the logstash. 
+		b) sh download_elk.sh  ##Download the binaries.
+		b) sh start_up_elastic.sh  ##Run in bash windows one.Starts elasticsearch on the default port number
+		c) sh start_up_kibana.sh   ##Run in bash windows two.Starts the kibana service on the default port number
+		d) sh start_up_logstash.sh ##Run in bash windows three.Start the logstash. 
 		   Please initialze the variable export source_file="<path to log files>\*.log" before running logstash
 
 
